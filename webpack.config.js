@@ -23,6 +23,11 @@ module.exports = {
     publicPath: '/assets/scripts/',
     contentBase: path.join(__dirname, 'public'),
     port: 3000
+  },
+  web: {
+    publicPath: '/assets/scripts/',
+    contentBase: path.join(__dirname, 'public'),
+    port: 3000
   }
 
 };
