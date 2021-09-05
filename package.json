@@ -11,7 +11,7 @@
     "webpack-dev-server": "^2.5.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --disable-host-check",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "license": "ISC"
