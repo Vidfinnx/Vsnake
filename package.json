@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "license": "ISC"
 }
