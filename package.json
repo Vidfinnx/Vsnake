@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack-dev-server"
+    "build": "webpack"
   },
   "license": "ISC"
 }
