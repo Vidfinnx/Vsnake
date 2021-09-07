@@ -62,7 +62,9 @@ var Game = {
 	},
 
 	create: function () {
-		
+		//Game Pause when lose focus disabled
+		this.game.stage.disableVisibilityChange = true;
+		//Scale game to full screen browser
 		this.scale.scaleMode = Phaser.ScaleManager.EXACT_FIT;
 		// Reset Variables since when you restart an instance this stuff doesn't get reset
 		tail = [];
